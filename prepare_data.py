@@ -26,6 +26,7 @@ def save_h5(h5_file, input_data, target):
     # Append new data to dataset
     dataset[len_old:len_new] = input_data
     print(dataset)
+    print("")
 
 
 def append_value_to_dict(dict_obj, key, value):
