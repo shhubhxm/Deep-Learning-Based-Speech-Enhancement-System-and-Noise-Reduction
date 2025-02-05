@@ -132,6 +132,7 @@ if __name__ == '__main__':
 
     model = DDAE((129, 126))
     model.summary()
+    print("")
 
     # Set checkpoint
     checkpoint = ModelCheckpoint(config_params.PATH_WEIGHTS, verbose=2,
