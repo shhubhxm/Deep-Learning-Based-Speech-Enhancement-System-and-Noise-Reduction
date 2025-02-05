@@ -60,6 +60,7 @@ def prediction():
         snr_base_noise_file = data_tools.set_snr(
             list_dB_voice_file, list_dB_noise_file, snr, config_params.PATH_DIR_TEST_SNR_BASED)
         list_noise_snr_files.append(snr_base_noise_file)
+        print(snr_base_noise_file)
 
     print(f'Loading Model: {config_params.PATH_WEIGHTS}')
     loaded_model = load_model(config_params.PATH_WEIGHTS)
