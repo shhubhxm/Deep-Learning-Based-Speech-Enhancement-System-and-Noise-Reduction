@@ -3,7 +3,7 @@
 ## Introduction
 People with hearing loss depend heavily on hearing aid to hear properly. However, traditional hearing aid also amplify disturbing environmental noise. This project implements **two deep learning models, one can classify the type of noise, the other can retain human voice and reduce environmental noise**. This proposal has the advantage of adapting to environmental noise compared to the traditional hearing aid.
 
-In this repo, we only provide codes of data preprocessing, model training and model validation that runs on PC.
+In this repo, Our team at Frugal only provide codes of data preprocessing, model training and model validation that runs on PC.
 
 ## Structure
 ![](https://i.imgur.com/XduRFpP.png)
