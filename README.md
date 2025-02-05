@@ -15,8 +15,7 @@ In this repo, Our team at Frugal only provide codes of data preprocessing, model
 - Noise Reduction Model (DDAE)
 - Preprocessing, NC and DDAE Integration on PC
 - Model conversion: Implement quantization and convert into tflite model
-- Deploy to embedded system & optimize the performance
-- Wording & Intro Video Editing
+
 
 ## Datasets
 The goal of this project is to recognize the noise in the input audio and clean them out with deep learning techniques. We mix clean voice and noises together as training input, and clean voice as output.
