@@ -37,7 +37,7 @@ git clone https://github.com/qqq89513/NOISE_CLASSIFIER
 The repo itself does not contain dataset and the trained weights. The weights will be published as soon as the training stage is finalized.
 Here are some public sources that we used for Noise Classifier:
   - Dataset: TIMIT mixed with AudioSet
-  <!-- - Preprocessing reference: [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish) -->
+  - Preprocessing reference: [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish)
 File desciption:
   - `utils/data_paser.py`: This script generates the list of dataset file paths as json. You can execute the script directly:
       ```
