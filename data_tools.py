@@ -73,6 +73,7 @@ def audio_files_to_numpy(audio_files):
 
     list_sound.extend(signal)
     array_sound = np.array(list_sound)
+    print(list_sound)
     return array_sound
 
 
