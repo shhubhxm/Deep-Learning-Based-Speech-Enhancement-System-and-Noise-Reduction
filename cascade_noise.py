@@ -19,6 +19,9 @@ def audio_files_add_to_numpy(list_audio_files):
 
 def slice_into_one_second(file):
 
+
+    # Load audio file with original sampling rate
+    # audio_data, sample_rate = librosa.load(file, sr=None)
     y, sr = librosa.load(file, sr=None)
     sound = y[:16000]
 
