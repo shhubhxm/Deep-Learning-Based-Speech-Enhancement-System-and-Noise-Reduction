@@ -94,7 +94,7 @@ Every picture with 3 subplots in the table below shows the result of classifying
 
 The following pictures are the spectrograms of clean voice, mixed audio and denoised audio. The XY axis represents time and frequency. The red colour shows higher energy at the specific time and frequency and the blue colour vice versa.
 
-Take household appliances as an example, you may find those different SNRs perform different consequences. Higher SNR gets a better result.
+Take household appliances as an example—you may notice that different SNR levels lead to varying outcomes. A higher SNR generally produces better results.
 
 | SNR |             Clean Voice              |                Mixed                 |               Denoised               |
 |:---:|:------------------------------------:|:------------------------------------:|:------------------------------------:|
