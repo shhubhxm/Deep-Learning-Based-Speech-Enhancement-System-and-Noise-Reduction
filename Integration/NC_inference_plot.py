@@ -38,9 +38,23 @@ def inference(model, sound, sr=params.SAMPLE_RATE, result_1D=True, plot=False, )
             sound, sr)
         mel_spectrogram = np.array(mel_spectrogram)
 
+    # model_input_shape = (
+    #     mel_spectrogram.shape[0], mel_spectrogram.shape[1], mel_spectrogram.shape[2], 1)
+    # scores = model(mel_spectrogram.reshape(model_input_shape))
+    # scores = np.array(scores)
+
+    # Define model input shape by preserving original dimensions and adding a channel dimension
     model_input_shape = (
-        mel_spectrogram.shape[0], mel_spectrogram.shape[1], mel_spectrogram.shape[2], 1)
+        mel_spectrogram.shape[0], 
+        mel_spectrogram.shape[1], 
+        mel_spectrogram.shape[2], 
+        1
+    )
+
+    # Reshape the mel spectrogram and pass it through the model
     scores = model(mel_spectrogram.reshape(model_input_shape))
+
+    # Convert the model output to a NumPy array
     scores = np.array(scores)
 
     # Visualize the results.
