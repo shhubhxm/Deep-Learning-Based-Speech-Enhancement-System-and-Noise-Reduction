@@ -28,14 +28,16 @@ As we all know, the data you use is more important than the model itself. We cho
 ### Noise Classifier, NC
 ![](https://i.imgur.com/LOnqGXX.png)
 
-This section tells setup of Noise Classifier. We use another [repo](https://github.com/qqq89513/NOISE_CLASSIFIER) for it, so please `cd` another folder before continues.
+This section tells setup of Noise Classifier. We use another 
+<!-- [repo](https://github.com/qqq89513/NOISE_CLASSIFIER) 
+for it, so please `cd` another folder before continues.
 ```
 git clone https://github.com/qqq89513/NOISE_CLASSIFIER
-```
+``` -->
 The repo itself does not contain dataset and the trained weights. The weights will be published as soon as the training stage is finalized.
 Here are some public sources that we used for Noise Classifier:
   - Dataset: TIMIT mixed with AudioSet
-  - Preprocessing reference: [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish)
+  <!-- - Preprocessing reference: [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish) -->
 File desciption:
   - `utils/data_paser.py`: This script generates the list of dataset file paths as json. You can execute the script directly:
       ```
@@ -67,9 +69,9 @@ Our preprocessing will output 0.5 sec STFT spectrogram, and we accumulate 1 sec 
 - `DDAE.py`: The model itself
 - `prediction_denoise.py`: Used to validate the model
 
-# How to prepare the dataset? 
+<!-- # How to prepare the dataset? 
 - NC: Please check [NC's repo](https://github.com/qqq89513/NOISE_CLASSIFIER).
-- DDAE: Download our pre-prepared dataset from [Google Drive](https://drive.google.com/file/d/1eiRYFSOqBTPAJabmzAV5s0pQaqCE-OVg/view?usp=sharing) and unzip it to the root directory of the repo. Then run the `prepare_data.py`.
+- DDAE: Download our pre-prepared dataset from [Google Drive](https://drive.google.com/file/d/1eiRYFSOqBTPAJabmzAV5s0pQaqCE-OVg/view?usp=sharing) and unzip it to the root directory of the repo. Then run the `prepare_data.py`. -->
 
 
 # Results
