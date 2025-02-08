@@ -55,7 +55,7 @@ File desciption:
     5. Inference
 
 ### Deep Denoising Autoencoder, DDAE
-<img src="images/structure.jpg" width=80% height=80%>
+![](https://i.imgur.com/lXgRIEV.png)
 
 DDAE is one of the derivatives of the autoencoder. Autoencoders are neural networks trained in an unsupervised way to attempt to copy inputs to outputs. And denoise autoencoder(DAE) is trained to reduce the noise from the input. In this project, we add multiple layers to the DAE and makes it DDAE.
 
