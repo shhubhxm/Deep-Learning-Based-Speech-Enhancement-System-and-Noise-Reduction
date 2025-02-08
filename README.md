@@ -6,7 +6,7 @@ People with hearing loss depend heavily on hearing aid to hear properly. However
 In this repo, Our team at Frugal only provide codes of data preprocessing, model training and model validation that runs on PC.
 
 ## Structure
-![](https://i.imgur.com/XduRFpP.png)
+<img src="images/structure.jpg" width=80% height=80%>
 
 ## Total works
 - Audio to Spectrogram Preprocessing & Inversion Algorithm (STFT & MFCC)
