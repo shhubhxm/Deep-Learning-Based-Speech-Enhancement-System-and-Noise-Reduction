@@ -25,7 +25,8 @@ As we all know, the data you use is more important than the model itself. We cho
 
 ## Models
 ### Noise Classifier, NC
-![](https://i.imgur.com/LOnqGXX.png)
+<img src="images/structure.jpg" width=80% height=80%>
+
 
 This section tells setup of Noise Classifier. We use another 
 <!-- [repo](https://github.com/qqq89513/NOISE_CLASSIFIER) 
