@@ -6,7 +6,7 @@ People with hearing loss depend heavily on hearing aid to hear properly. However
 In this repo, Our team at Frugal only provide codes of data preprocessing, model training and model validation that runs on PC.
 
 ## Structure
-<img src="images/structure.jpg" width=80% height=80%>
+<img src="Images/structure.jpg" width=80% height=80%>
 
 ## Total works
 - Audio to Spectrogram Preprocessing & Inversion Algorithm (STFT & MFCC)
@@ -25,7 +25,7 @@ As we all know, the data you use is more important than the model itself. We cho
 
 ## Models
 ### Noise Classifier, NC
-<img src="images/structure.jpg" width=80% height=80%>
+![](https://i.imgur.com/LOnqGXX.png)
 
 
 This section tells setup of Noise Classifier. We use another 
