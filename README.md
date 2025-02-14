@@ -29,11 +29,11 @@ As we all know, the data you use is more important than the model itself. We cho
 
 
 This section tells setup of Noise Classifier. We use another 
-<!-- [repo](https://github.com/qqq89513/NOISE_CLASSIFIER) 
+[repo](https://github.com/shhubhxm/noise-classifier)
 for it, so please `cd` another folder before continues.
 ```
-git clone https://github.com/qqq89513/NOISE_CLASSIFIER
-``` -->
+git clone [https://github.com/shhubhxm/noise-classifier]
+``` 
 The repo itself does not contain dataset and the trained weights. The weights will be published as soon as the training stage is finalized.
 Here are some public sources that we used for Noise Classifier:
   - Dataset: TIMIT mixed with AudioSet
