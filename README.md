@@ -1,5 +1,12 @@
 # Deep Learning Based Noise Reduction and Speech Enhancement System
 
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+Developed by Shubham Vyas.
+=======
+
 ## Introduction
 People with hearing loss depend heavily on hearing aid to hear properly. However, traditional hearing aid also amplify disturbing environmental noise. This project implements **two deep learning models, one can classify the type of noise, the other can retain human voice and reduce environmental noise**. This proposal has the advantage of adapting to environmental noise compared to the traditional hearing aid.
 
@@ -106,12 +113,3 @@ Take household appliances as an example—you may notice that different SNR leve
 | 15  | ![](https://i.imgur.com/cX0rkID.png) | ![](https://i.imgur.com/zsVBgnu.png) | ![](https://i.imgur.com/X5Why2f.png) |
 
 Also, we found that those clean areas become dirty after denoising. That's because the model learned lots of different data, and the spectrogram of those data is arbitrary and has randomness and diversity.
-<<<<<<< HEAD
-
-## License
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-Developed by Shubham Vyas.
-=======
->>>>>>> 33e9e91043b5d25f4d4b77620a3e0aa8ecfb4596
