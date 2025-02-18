@@ -5,7 +5,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Author
 Developed by Shubham Vyas.
-=======
+
 
 ## Introduction
 People with hearing loss depend heavily on hearing aid to hear properly. However, traditional hearing aid also amplify disturbing environmental noise. This project implements **two deep learning models, one can classify the type of noise, the other can retain human voice and reduce environmental noise**. This proposal has the advantage of adapting to environmental noise compared to the traditional hearing aid.
