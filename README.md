@@ -6,7 +6,7 @@ People with hearing loss depend heavily on hearing aid to hear properly. However
 In this repo, Our team at Frugal only provide codes of data preprocessing, model training and model validation that runs on PC.
 
 ## Structure
-![](https://i.imgur.com/XduRFpP.png)
+<img src="Images/structure.jpg" width=80% height=80%>
 
 ## Total works
 - Audio to Spectrogram Preprocessing & Inversion Algorithm (STFT & MFCC)
@@ -54,7 +54,7 @@ File desciption:
     5. Inference
 
 ### Deep Denoising Autoencoder, DDAE
-<img src="images/structure.jpg" width=80% height=80%>
+![](https://i.imgur.com/lXgRIEV.png)
 
 DDAE is one of the derivatives of the autoencoder. Autoencoders are neural networks trained in an unsupervised way to attempt to copy inputs to outputs. And denoise autoencoder(DAE) is trained to reduce the noise from the input. In this project, we add multiple layers to the DAE and makes it DDAE.
 
@@ -105,3 +105,9 @@ Take household appliances as an example—you may notice that different SNR leve
 | 15  | ![](https://i.imgur.com/cX0rkID.png) | ![](https://i.imgur.com/zsVBgnu.png) | ![](https://i.imgur.com/X5Why2f.png) |
 
 Also, we found that those clean areas become dirty after denoising. That's because the model learned lots of different data, and the spectrogram of those data is arbitrary and has randomness and diversity.
+
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+Developed by Shubham Vyas.
