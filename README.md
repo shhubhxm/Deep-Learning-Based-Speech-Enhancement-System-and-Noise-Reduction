@@ -27,12 +27,13 @@ As we all know, the data you use is more important than the model itself. We cho
 ### Noise Classifier, NC
 ![](https://i.imgur.com/LOnqGXX.png)
 
+
 This section tells setup of Noise Classifier. We use another 
-<!-- [repo](https://github.com/qqq89513/NOISE_CLASSIFIER) 
+[repo](https://github.com/shhubhxm/noise-classifier)
 for it, so please `cd` another folder before continues.
 ```
-git clone https://github.com/qqq89513/NOISE_CLASSIFIER
-``` -->
+git clone [https://github.com/shhubhxm/noise-classifier]
+``` 
 The repo itself does not contain dataset and the trained weights. The weights will be published as soon as the training stage is finalized.
 Here are some public sources that we used for Noise Classifier:
   - Dataset: TIMIT mixed with AudioSet
@@ -105,9 +106,12 @@ Take household appliances as an example—you may notice that different SNR leve
 | 15  | ![](https://i.imgur.com/cX0rkID.png) | ![](https://i.imgur.com/zsVBgnu.png) | ![](https://i.imgur.com/X5Why2f.png) |
 
 Also, we found that those clean areas become dirty after denoising. That's because the model learned lots of different data, and the spectrogram of those data is arbitrary and has randomness and diversity.
+<<<<<<< HEAD
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 Developed by Shubham Vyas.
+=======
+>>>>>>> 33e9e91043b5d25f4d4b77620a3e0aa8ecfb4596
